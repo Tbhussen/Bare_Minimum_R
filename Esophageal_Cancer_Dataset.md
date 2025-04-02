@@ -107,6 +107,8 @@ The highest risk group (`120+g/day` alcohol & `30+g/day` tobacco) was correctly 
 
 _This plot strongly suggests an interaction effect between alcohol and tobacco, where both together significantly increase esophageal cancer frequency._
 
+**How does `agegp` factor into this?**
+
 ```{r}
 esoph_mutated <- esoph %>%
   mutate(npeople = ncases + ncontrols) %>%
