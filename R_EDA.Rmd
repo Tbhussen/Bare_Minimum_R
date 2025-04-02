@@ -13,5 +13,7 @@
 5.  **ncontrols**: The number of controls (individuals without esophageal cancer) for the given combination of age group, alcohol, and tobacco consumption.
 
 ```{r}
+library(tidyverse)
+library(ggplot)
 print(esoph)
 ```
