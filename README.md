@@ -6,4 +6,4 @@ In this project, I worked on a dataset called `esoph`.
 
 This dataset which contains information about alcohol and tobacco consumption along with the age group corresponding to each combination of these consumptions. The end result of this EDA was to get the lowest vs highest risk associated with diffrent combinations of the variables involved.
 
-To get insightful conclusions, I utilized several graphical plots including: bar plots, scatter plots, and box plots. Besides, I used several statistical concepts such as frequency, sum, and mean.
+To get insightful conclusions, I utilized several graphical plots including: **bar plots**, **scatter plots**, and **box plots**. Besides, I used several statistical concepts such as **frequency**, **sum**, and **mean**.
