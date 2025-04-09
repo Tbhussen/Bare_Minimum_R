@@ -26,4 +26,11 @@
 `Fortunately, we can access the RNA sequencing (RNA-seq) profiles of 1000+ cell lines from the Cancer Cell Line Encyclopedia. We can do some simple exploration of this data to recommend a skin cancer cell line appropriate for testing our drugs.` 
 
 ## EDA
-The main quation at hand is to find the most suitable cancer cell line to test the drug, which will be used to interfere with skin cancer metastasis.
+The main question at hand is to find the most suitable cancer cell line to test the drug, which will be used to interfere with skin cancer metastasis.
+
+Let us begin by exploring the dataset:
+
+{r}
+# Load the dataset
+ccle_counts <- read.csv(paste0(getwd(),"/outs/ccle_subset_rnaseq_counts.csv"))
+ccle_counts
